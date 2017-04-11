@@ -9,6 +9,7 @@
   <url>http://maven.apache.org</url>
   
   <parent>
+<!-- ADDED COMMENT-->
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.1.RELEASE</version>
