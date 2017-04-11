@@ -5,9 +5,8 @@
   <artifactId>boot</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>boot Maven Webapp</name>
-  <url>http://maven.apache.org</url>
-  
+  <name>boot Maven Webapp booot</name>
+  <url>http://maven.apache.org</url>  
   <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
