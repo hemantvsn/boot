@@ -7,7 +7,7 @@
   <version>1.0.0</version>
   <name>boot Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  
+
   <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -22,5 +22,30 @@
   </dependencies>
   <build>
     <finalName>boot</finalName>
+
+        <plugins>
+            <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>cobertura-maven-plugin</artifactId>
+        <version>2.3</version>
+        <configuration>
+          <check>
+            <haltOnFailure>true</haltOnFailure>
+            <!-- Project-wide thresholds -->
+            <totalLineRate>80</totalLineRate>
+            
+          </check>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>verify</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+        </plugins>
+
   </build>
 </project>
