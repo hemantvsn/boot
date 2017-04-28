@@ -9,7 +9,7 @@ public class User {
 		this.setId(id);
 		this.setName(name);
 	}
-bxzcsjlasjdaldja;d
+
 	public int getId() {
 		return id;
 	}
